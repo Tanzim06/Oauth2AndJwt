@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+/*
+ Microsoft Windows [Version 10.0.18362.959]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\user>openssl genrsa -out jwt.pem 2048
+Generating RSA private key, 2048 bit long modulus (2 primes)
+......+++++
+.....+++++
+e is 65537 (0x010001)
+
+C:\Users\user>openssl rsa -in jwt.pem
+writing RSA key
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAz2YLN7Z1wLdCKyzEYAGKTT6ZrOJMNoMvV8DFTgueSx+tbSX2
+uCNB/pspExiBEIIAYOdzr/O63CH5tZ7yBbeZekmye2BKbzTu8lPujNBjhU6c6N5J
+66kw8mnmSaMjgoIIaADbbWngsFhM1qYAFNKk3ZlijWuRi04okSRBkUsiwA/VbZcm
+LUKRrHJgKkd8e6z3pO6KndlpTek4HqFKkEBLnvkrGUD+YuUabjC4Wk9rloDI2hUD
+XrOL2cw+OIW5dK+E8eXz6D3n6qTCPuee/tUj18+Be8NUX1pYuDYTSvU+Fej4xLO3
+BGzHKgLIQuX9elZRr1p1agLnTP56ooeONNt7xQIDAQABAoIBAC+4E+aqtac0wyW5
+9Cj+0bp6J9OuccitIGx5byxI4g/45udRL9YoTpvtSWMaZT/OGZYyStz2IE1cB99x
+BdCo8MhBQq6+dgHmVQAurZl6rRtT/ihaVPnDAP8VvKW+woHZt2Nupw4iqU8J0gwl
+P6mK2eIe050kXeWGgzD5/ZgXiJRV5kXIgkQ3AlifH3OS/Eyv8y2JqL5xrQLlzWEV
+QjIT38ILzgwlVl1tD5olEL5sDnkJ3gejiZrsGUKQLJdM+F7D/uIX34q1COrR89dy
+cfdUzK8WdAJd6TAtcgi1QyjmeTwZ/sYMD1rhkaQYcSa820D53mPx5AxSwpvglWt8
+t21rhmECgYEA5pAwaWWRz2FoT+iRnbEuWXk8dl9iUiHIlYQ5dJmu1PH4TXTdZXnL
+1S9f+EfNB8+q5tKZvNwv83ggiugkJNrZkCGljP6Kczq1eyLtuJMIo7qFvxKFM+0p
+sCW/WM7Xg4A+8wrLk0YYslmSUGNFzwWbY0XV+ZspqA+zCpIZXcplRC0CgYEA5ked
+Xo+cI5iVXFHmOUBYsWXLZ4QDjXXLgatSM7kKnbU1+BOZuqX6+4sq88sw9/gzFj4f
+JxgWszYZhg/Bl6lLu8S2D4EPdkBpzvAADkmX+Po19lj61iKXBxlPH23GzZKJU4hA
+S7Ejbr+Ysz1sxkT4mnrUXJmlKXa5t4mG4CDMXPkCgYA17pCEdu/OlLhzyLEXM/Tl
+lQhhoBo9oA1tfAp8jd5pjVhJtgZ70Cuv6G8IgrMhGqCdcbHojZDh4L2sAHVD8bVm
+k5hIDNqR7a+56Ae3Xx1sPxs+ALUL2nQf8hR6T5f1+K/A5kuMXZ81SOKCz1XrASLB
+6/oLcxIhb9qvpFEusUNS2QKBgQCU9wDTOf1cfYkpZoWSxZBaeapCNYEC0o+qO0R6
+1xoJ+T6HU06gEl0wuc84VFpCHtoVamxGouuUVMvgEHNAg7DNL6xCjU+ORI7t4g13
+MJ5R3rJnwRnKyid+3R11DFONilyxn7NQA7ATJXhHgtXJ0LYtYIXdvTq9fuMW2q1Y
+cX8iKQKBgHDXrGElA0RVHaG2h6ri7xirKjrl5PV3CkYIVxvJqhUHkdPIaiQhCDfG
+U3BwyexQHunhhLulXJi1lhv0sOQXyZ0otWh7iRs7uFs1x3ofrl43ukXDMihropQn
+G9tLEc847dBMZgRXeqyY/23rJCkb4M0EgsV0u/06PuzxjWWvsmIU
+-----END RSA PRIVATE KEY-----
+
+C:\Users\user>openssl rsa -in jwt.pem -pubout
+writing RSA key
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz2YLN7Z1wLdCKyzEYAGK
+TT6ZrOJMNoMvV8DFTgueSx+tbSX2uCNB/pspExiBEIIAYOdzr/O63CH5tZ7yBbeZ
+ekmye2BKbzTu8lPujNBjhU6c6N5J66kw8mnmSaMjgoIIaADbbWngsFhM1qYAFNKk
+3ZlijWuRi04okSRBkUsiwA/VbZcmLUKRrHJgKkd8e6z3pO6KndlpTek4HqFKkEBL
+nvkrGUD+YuUabjC4Wk9rloDI2hUDXrOL2cw+OIW5dK+E8eXz6D3n6qTCPuee/tUj
+18+Be8NUX1pYuDYTSvU+Fej4xLO3BGzHKgLIQuX9elZRr1p1agLnTP56ooeONNt7
+xQIDAQAB
+-----END PUBLIC KEY-----
+ */
